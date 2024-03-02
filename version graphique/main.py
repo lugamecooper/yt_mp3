@@ -65,6 +65,7 @@ class main:
         self.fen.mainloop()
 
     def verify(self) -> str:
+        test = False
         from os.path import exists,dirname
         test_2 = findall(r"^(\w:\\Users\\[\w| ]*\\)",__file__)
         if len(test_2) == 1:
